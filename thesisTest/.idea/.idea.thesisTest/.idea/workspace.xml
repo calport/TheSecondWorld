@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373ad7f1-e47e-42bd-ba6a-a4b17dfe4b62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.thesisTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.thesisTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.thesisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.thesisTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeLavaRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeLavaRoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Video/VideoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Video/VideoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/video/Pool_water.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/video/Pool_water.mov.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/video/TimelapseSunsetJamaJamon.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/video/TimelapseSunsetJamaJamon.mov.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
@@ -20,11 +15,8 @@
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/3325c7-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/3325c7-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/77/77e9887df3ee34dd6bdf7e200513155b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/77e9887df3ee34dd6bdf7e200513155b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b5ae55d868194352aa594d50ca7e6de" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7b/7b5ae55d868194352aa594d50ca7e6de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b5ae55d868194352aa594d50ca7e6de.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7b/7b5ae55d868194352aa594d50ca7e6de.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/87/87f6e41704a004af9b707ef6329ee5f3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/87/87f6e41704a004af9b707ef6329ee5f3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/f0/f0406338556a743abbc1866e372c5859" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f0/f0406338556a743abbc1866e372c5859" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/f0/f0406338556a743abbc1866e372c5859.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f0/f0406338556a743abbc1866e372c5859.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/edd1689a97fc842ddab8ea5568c2b82d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/edd1689a97fc842ddab8ea5568c2b82d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,9 +57,9 @@
         <option value="$PROJECT_DIR$/Assets/rotatewater.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sending.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Video/VideoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeLavaRoom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Video/VideoManager.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +117,7 @@
       <workItem from="1569516959712" duration="3736000" />
       <workItem from="1571940859076" duration="2736000" />
       <workItem from="1575763441516" duration="3032000" />
-      <workItem from="1575770260303" duration="408000" />
+      <workItem from="1575770260303" duration="8849000" />
     </task>
     <servers />
   </component>

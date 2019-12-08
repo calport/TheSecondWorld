@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
@@ -6,24 +7,22 @@ using UnityEngine;
 public class ChangeLavaRoom : MonoBehaviour
 {
     //This is a sample script of what how you could change your videos 
-    public GameObject StateA, StateB, StateC;
-    
+    public GameObject _videoManager; 
    
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("ChangeIt", 10);
-    }
-
-    public void ChangeIt()
-    {
-        ServiceLocator._videoManager.ChangeVideoOfRoom("FireRoom",StateA,StateB,StateC); 
         
     }
     
+
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.anyKeyDown)
+        {
+            _videoManager.GetComponent<VideoManager>().CheckFireRoomAvailablity();
+            Debug.Log("checking room available");
+        }
     }
 }

@@ -43,12 +43,24 @@ public class VideoManager : MonoBehaviour
         switch (currentFireRoomState)
         {
             case FireRoom.VideoA:
+                VideoPlanes[0].SetActive(true);
+                VideoPlanes[1].SetActive(false);
+                VideoPlanes[2].SetActive(false);
                 break;
             case FireRoom.VideoB:
+                VideoPlanes[0].SetActive(false);
+                VideoPlanes[1].SetActive(true);
+                VideoPlanes[2].SetActive(false);
                 break;
             case FireRoom.idleVideo:
+                VideoPlanes[0].SetActive(false);
+                VideoPlanes[1].SetActive(false);
+                VideoPlanes[2].SetActive(true);
                 break;
             case FireRoom.isFinished:
+                VideoPlanes[0].SetActive(false);
+                VideoPlanes[1].SetActive(false);
+                VideoPlanes[2].SetActive(false);
                 break;
             default:
                 break;
@@ -63,32 +75,13 @@ public class VideoManager : MonoBehaviour
         }
     }
 
-    public void ChangeVideoOfRoom(string Room, GameObject StateA,GameObject StateB,GameObject StateC)
+
+    public void CheckFireRoomAvailablity() //this function see's what options are available 
     {
-        // She wants her videos to changed based off the order players has visited previous rooms
-        // maybe there should be States to determine which rooms are still accessible?
-        switch (Room)
-        {
-            case "FireRoom":
-                //CheckFireRoomAvailablity(StateA, StateB, StateC); 
-                
-                break;
-            case "StairRoom":
-                break;
-            default:
-                break;
-        }
+        var StateA = VideoPlanes[0];
+        var StateB = VideoPlanes[1];
+        var StateC = VideoPlanes[2]; 
         
-    }
-
-    public void ChangeFireRoomState(FireRoom newState)
-    {
-        currentFireRoomState = newState; 
-    }
-
-    public void CheckFireRoomAvailablity(GameObject StateA, GameObject StateB, GameObject StateC) //this function see's what options are available 
-    {
-
         if (ServiceLocator.FireRoomA && ServiceLocator.FireRoomB && ServiceLocator.FireRoomC)
             currentFireRoomState = FireRoom.VideoA; 
         else if (!ServiceLocator.FireRoomA && ServiceLocator.FireRoomB) 
