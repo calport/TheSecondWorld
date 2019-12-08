@@ -21,16 +21,12 @@ public class VideoManager : MonoBehaviour
             VideoPlanes[i].GetComponent<VideoPlayer>().Prepare();
         }
     }
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeVideoOfRoom(GameObject StateA,GameObject StateB,GameObject StateC)
     {
+        // She wants her videos to changed based off the order players has visited previous rooms
+        // maybe there should be States to determine which rooms are still accessible? 
         
     }
+  
 }

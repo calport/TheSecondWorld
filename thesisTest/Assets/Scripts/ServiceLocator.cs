@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ServiceLocator
+public class ServiceLocator 
 {
-    public static VideoManager _videoManager;
+        public static new VideoManager _videoManager;
+    
+   
+
 }

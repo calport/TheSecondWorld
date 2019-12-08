@@ -240,9 +240,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CallRed.cs" t="Include" />
+          <e p="ChangeLavaRoom.cs" t="Include" />
           <e p="input_movement.cs" t="Include" />
           <e p="MoveBlueMan.cs" t="Include" />
           <e p="Sending.cs" t="Include" />
+          <e p="ServiceLocator.cs" t="Include" />
           <e p="Spinny.cs" t="Include" />
           <e p="Video" t="Include">
             <e p="VideoManager.cs" t="Include" />
