@@ -17,7 +17,7 @@ public class ChangeLavaRoom : MonoBehaviour
 
     public void ChangeIt()
     {
-        ServiceLocator._videoManager.ChangeVideoOfRoom(StateA,StateB,StateC); 
+        ServiceLocator._videoManager.ChangeVideoOfRoom("FireRoom",StateA,StateB,StateC); 
         
     }
     
