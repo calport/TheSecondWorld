@@ -446,6 +446,17 @@ public class VideoManager : MonoBehaviour
         else  currentStairRoomState = StairRoom.idleVideo;
     }
     
+    public void BarRoomAvailability() //this function see's what options are available in BarRoom 
+    {
+        if (ServiceLocator.BarRoomA && ServiceLocator.BarRoomB && ServiceLocator.BarRoomIdle)
+            currentBarRoomState = BarRoom.VideoA; 
+        else if (!ServiceLocator.BarRoomA && ServiceLocator.BarRoomB) 
+            currentBarRoomState = BarRoom.VideoB;
+        else if (ServiceLocator.BarRoomA && !ServiceLocator.BarRoomB) 
+            currentBarRoomState = BarRoom.VideoA;
+        else  currentBarRoomState = BarRoom.idleVideo;
+    }
+
     public void TheatreInRoomAvailability() //this function see's what options are available in TheatreInRoom 
     {
         if (ServiceLocator.TheatreInRoomA && ServiceLocator.TheatreInRoomB && ServiceLocator.TheatreInIdle)

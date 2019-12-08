@@ -21,7 +21,7 @@ public class ChangeLavaRoom : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            _videoManager.GetComponent<VideoManager>().PoolRoomAvailablity();
+            ServiceLocator._videoManager.PoolRoomAvailablity();
            
             
             Debug.Log("checking room available");

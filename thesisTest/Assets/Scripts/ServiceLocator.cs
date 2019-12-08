@@ -3,23 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class ServiceLocator 
+public class ServiceLocator
 {
-       /* public VideoManager _videoManager;
+    //Getting a reference of all your game managers
+    //you can use this script to get a reference of any of the managers you need
+    //think of it as a phonebook  
 
-        public VideoManager videoManager
-        {
-                get
-                {
-                        if (videoManager == null) videoManager = GameObject.Find("GameManger").GetComponent<VideoManager>();
-                        return videoManager; 
-                }
-                set
-                {
-                        
-                }
-        }
-     */
+    public static GameController _gameController; 
+    public static VideoManager _videoManager; 
+    
 
        #region RoomBools
        
