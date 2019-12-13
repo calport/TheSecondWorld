@@ -369,6 +369,21 @@ public class VideoManager : MonoBehaviour
         }
     }
 
+    
+    //can it I make a generic one that you pass information too? 
+    //you cant pass an enum. 
+    /*
+    public void CheckAvailability(GameObject RoomA, GameObject RoomB, )
+    {
+        if (ServiceLocator.TunnelRoomA && ServiceLocator.TunnelRoomB && ServiceLocator.TunnelIdle)
+            currentTunnelOfLoveRoomState = TunnelOfLoveRoom.VideoA; 
+        else if (!ServiceLocator.TunnelRoomA && ServiceLocator.TunnelRoomB) 
+            currentTunnelOfLoveRoomState = TunnelOfLoveRoom.VideoB;
+        else if (ServiceLocator.TunnelRoomA && !ServiceLocator.TunnelRoomB) 
+            currentTunnelOfLoveRoomState = TunnelOfLoveRoom.VideoA;
+        else  currentTunnelOfLoveRoomState = TunnelOfLoveRoom.idleVideo;
+    } */
+
     public void TunnelOfLoveAvailability() //this function see's what options are available in Tunnel of Love 
     {
         if (ServiceLocator.TunnelRoomA && ServiceLocator.TunnelRoomB && ServiceLocator.TunnelIdle)
